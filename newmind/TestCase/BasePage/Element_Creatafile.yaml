@@ -1,0 +1,35 @@
+Patient_management:
+  type: link_text
+  value: 患者管理
+Creat_a_file:
+  type: XPath
+  value: //*[@id="root"]/div/div[2]/div[2]/div/div[1]/div[2]/div[2]/button
+Social_security_number:
+  type: id
+  value: ssnum
+  inputvalue: '130982199012295643'
+  wrongvalue: '99911114101'
+patient_name:
+  type: id
+  value: name
+  inputvalue: 王小四
+  wrongvalue: ''
+cellphone_number:
+  type: id
+  value: phone
+  inputvalue: '13512944328'
+  wrongvalue: '1234567890-='
+attending_doctor_selecter:
+  type: XPath
+  value: /html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/div[1]/form/div[4]/div[2]/div/h3/div/div/div/div
+attending_doctor:
+  type: XPath
+  value: /html/body/div[3]/div/div/div/ul/li[2]
+creat_file:
+  type: XPath
+  value: /html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/div[2]/div/div[2]/button
+ifcreat_ok:
+  type: class
+  value: ant-notification-notice-description
+
+  

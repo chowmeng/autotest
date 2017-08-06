@@ -1,0 +1,22 @@
+input_name:
+  type: id
+  value: phone
+  inputvalue: '99911114100'
+  wrongvalue: '99911114101'
+input_pwd:
+  type: id
+  value: password
+  inputvalue: '114100'
+  wrongvalue: '1234567890-='
+button_login:
+  type: class
+  value: ant-col-24
+main_interface:
+  leftspan: 
+    type: class
+    value: hcis_logo___1Gwsg
+noimputerror:
+  type: class
+  value: ant-notification-notice-message
+
+
